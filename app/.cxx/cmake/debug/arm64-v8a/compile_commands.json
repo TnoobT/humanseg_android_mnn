@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtengmnn_EXPORTS -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/opencv/include -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/include -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/include/expr  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fopenmp -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/tengmnn.dir/human_seg.cpp.o -c /Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/human_seg.cpp",
+  "file": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/human_seg.cpp"
+},
+
+{
+  "directory": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtengmnn_EXPORTS -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/opencv/include -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/include -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/include/expr  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fopenmp -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/tengmnn.dir/jni_interface.cpp.o -c /Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/jni_interface.cpp",
+  "file": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/jni_interface.cpp"
+}
+]

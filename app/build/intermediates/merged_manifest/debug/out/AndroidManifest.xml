@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tfjtest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/mnn_icon"
+        android:label="LaneDetect"
+        android:roundIcon="@mipmap/mnn_icon"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MNNDemo" >
+        <activity
+            android:name="com.example.tfjtest.activity.WelcomeActivity"
+            android:theme="@style/AppNoTitleTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tfjtest.activity.MainActivity"
+            android:theme="@style/AppNoTitleTheme" />
+
+        <provider
+            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+            android:authorities="com.example.tfjtest.camerax-init"
+            android:exported="false"
+            android:initOrder="100"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="com.zxy.recovery.core.RecoveryActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:process=":recover"
+            android:screenOrientation="portrait"
+            android:theme="@style/RecoveryTheme.NoActionBar" >
+        </activity>
+
+        <service
+            android:name="com.zxy.recovery.core.RecoveryService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":recover" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+{
+  "stringTable": {
+    "0": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtengmnn_EXPORTS -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/opencv/include -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/include -I/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/include/expr -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fopenmp -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/CMakeLists.txt",
+    "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/tfj/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/tfj/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tengmnn-Debug-arm64-v8a": {
+      "buildCommand": "/Users/tfj/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a\" tengmnn",
+      "buildType": "debug",
+      "toolchain": "1076937440",
+      "abi": "arm64-v8a",
+      "artifactName": "tengmnn",
+      "files": [
+        {
+          "src": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/human_seg.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/jni_interface.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtengmnn.so",
+      "runtimeFiles": [
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/opencv/arm64-v8a/libopencv_java4.so",
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/arm64-v8a/libMNN.so",
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/arm64-v8a/libMNN.so",
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/arm64-v8a/libMNN.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "1076937440": {
+      "cppCompilerExecutable": "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

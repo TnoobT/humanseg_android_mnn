@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/CMakeLists.txt",
+    "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/Users/tfj/Library/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/tfj/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/tfj/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tengmnn-Debug-armeabi-v7a": {
+      "artifactName": "tengmnn",
+      "buildCommand": "/Users/tfj/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/armeabi-v7a\" tengmnn",
+      "abi": "armeabi-v7a",
+      "output": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libtengmnn.so",
+      "runtimeFiles": [
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/opencv/armeabi-v7a/libopencv_java4.so",
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/armeabi-v7a/libMNN.so",
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/armeabi-v7a/libMNN.so",
+        "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/src/main/cpp/mnn/armeabi-v7a/libMNN.so"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# ninja log v5
+0	738	1663055760	CMakeFiles/tengmnn.dir/jni_interface.cpp.o	fa17f9dbe133f54c
+0	778	1663055760	CMakeFiles/tengmnn.dir/human_seg.cpp.o	fed17d584f2f3615
+1	752	1663055881	CMakeFiles/tengmnn.dir/jni_interface.cpp.o	da9f1eac96e7f1e2
+1	783	1663055881	CMakeFiles/tengmnn.dir/human_seg.cpp.o	34f74d2dda798a94
+783	848	1663055881	/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtengmnn.so	51a9a1be0d986db2
+1	982	1663056120	CMakeFiles/tengmnn.dir/jni_interface.cpp.o	da9f1eac96e7f1e2
+982	1064	1663056120	/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtengmnn.so	51a9a1be0d986db2
