@@ -1,9 +1,3 @@
-com/example/tfjtest/model/HumanSegment.java
- com.example.tfjtest.model.HumanSegment
-com/example/tfjtest/model/LaneInfo.java
- com.example.tfjtest.model.LaneInfo
-com/example/tfjtest/BuildConfig.java
- com.example.tfjtest.BuildConfig
 com/example/tfjtest/activity/MainActivity.java
  com.example.tfjtest.activity.MainActivity
  com.example.tfjtest.activity.MainActivity$1
@@ -23,7 +17,13 @@ com/example/tfjtest/activity/MainActivity.java
  com.example.tfjtest.activity.MainActivity$8
  com.example.tfjtest.activity.MainActivity$9
  com.example.tfjtest.activity.MainActivity$DetectAnalyzer
+com/example/tfjtest/model/LaneInfo.java
+ com.example.tfjtest.model.LaneInfo
 com/example/tfjtest/activity/WelcomeActivity.java
  com.example.tfjtest.activity.WelcomeActivity
  com.example.tfjtest.activity.WelcomeActivity$1
  com.example.tfjtest.activity.WelcomeActivity$2
+com/example/tfjtest/BuildConfig.java
+ com.example.tfjtest.BuildConfig
+com/example/tfjtest/model/HumanSegment.java
+ com.example.tfjtest.model.HumanSegment

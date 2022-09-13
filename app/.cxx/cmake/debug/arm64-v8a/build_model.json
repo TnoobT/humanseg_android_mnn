@@ -184,7 +184,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/.cxx",
         "cxxFolder": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/.cxx",
-        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -208,6 +207,7 @@
     "objFolder": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
+      "ARMEABI_V7A",
       "ARM64_V8A"
     ],
     "prefabDirectory": "/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/prefab",

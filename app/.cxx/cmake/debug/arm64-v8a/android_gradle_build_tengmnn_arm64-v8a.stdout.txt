@@ -1,3 +1,2 @@
 ninja: Entering directory `/Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/.cxx/cmake/debug/arm64-v8a'
-[1/2] Building CXX object CMakeFiles/tengmnn.dir/jni_interface.cpp.o
-[2/2] Linking CXX shared library /Users/tfj/Desktop/workspace/code/AndroidProjects/humanseg_android_mnn/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtengmnn.so
+ninja: no work to do.
